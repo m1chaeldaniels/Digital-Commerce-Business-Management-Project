@@ -1,0 +1,113 @@
+/* michael daniels css IT202-01 Unit 11 Assignment mtd32@njit.edu */
+
+
+
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #0056b3;
+  --background-color: #f8f8f8;
+  --text-color: #333;
+  --font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+header {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.store-description {
+  text-align: center;
+  padding: 40px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.store-description h2 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.store-description p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+h1, h2, p {
+  font-family: var(--font-family);
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+.logo img {
+  max-width: 120px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+figure {
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  .gallery {
+      flex-direction: column;
+  }
+}

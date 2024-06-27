@@ -1,0 +1,184 @@
+/* Modernized CSS for Additional Pages */
+
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #0056b3;
+  --background-color: #f8f8f8;
+  --text-color: #333;
+  --font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+header {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+h1, h2, p {
+  font-family: var(--font-family);
+}
+
+.logo img {
+  max-width: 120px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 15px;
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.category-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.category-link:hover, a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Forms and Buttons */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
+
+input[type="button"] {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* Shoe Details Styles */
+.shoe-details {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.shoe-details h1 {
+  color: var(--primary-color);
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.shoe-details img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+}
+
+.shoe-detail {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: var(--text-color);
+}
+
+.shoe-detail strong {
+  color: var(--secondary-color);
+}
