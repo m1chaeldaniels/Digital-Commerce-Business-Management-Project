@@ -1,6 +1,6 @@
 # Digital-Commerce-Business-Management-Project
 
-Throughout the IT202 semester, I developed a comprehensive full stack Sneaker Store Website to demonstrate my technical skills and the complexity of the build process.
+Throughout the NJIT IT202 fall 2023 semester, I developed a comprehensive full-stack Sneaker Store Website to demonstrate  technical skills and the complexity of building an innovative business development with the product at its core and focus.
 
 Technologies Utilized:
 
